@@ -17,7 +17,12 @@
 		"phpunit/phpunit" : "~4.8|~5.1"
 	},
 	"license" : "MIT",
-	"keywords" : [ "symfony2", "twig", "transation", "datetime" ],
+	"keywords" : [
+		"symfony2",
+		"twig",
+		"transation",
+		"datetime"
+	],
 	"extra" : {
 		"branch-alias" : {
 			"dev-master" : "1.0.x-dev"
@@ -29,8 +34,9 @@
 		}
 	},
 	"type" : "symfony-bundle",
-	"authors" : [ {
-		"name" : "Salah Abdelkader Seif Eddine",
-		"email" : "seif.salah@gmail.com"
-	} ]
+	"authors" : [{
+			"name" : "Salah Abdelkader Seif Eddine",
+			"email" : "seif.salah@gmail.com"
+		}
+	]
 }

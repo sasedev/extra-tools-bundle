@@ -1,6 +1,3 @@
-parameters:
-    sasedev_extra_tools.extension.twig.class: Sasedev\ExtraToolsBundle\Twig\TwigExtension
-
 services:
   translation.loader.po:
     class: Sasedev\ExtraToolsBundle\Translation\Loader\PotFileLoader
@@ -55,7 +52,7 @@ services:
       - { name: sasedev_extra_tools.ratio_unit_provider }
 
   sasedev_extra_tools.twig.extension:
-    class: %sasedev_extra_tools.extension.twig.class%
+    class: Sasedev\ExtraToolsBundle\Twig\TwigExtension
     calls:
       - [ setUnitConverter, [ "@sasedev_extra_tools.unit_converter" ] ]
       - [ setTranslator, [ "@translator" ] ]
